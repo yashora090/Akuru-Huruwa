@@ -14,6 +14,7 @@ public class Effects : MonoBehaviour {
 		foreach (Touch touch in Input.touches) {
 			if(touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled) {
 				Vector3 touchPosition=Camera.current.ScreenToWorldPoint(touch.position);
+				touchPosition.z=0;
 				Instantiate(pointerPrefab,touchPosition,Quaternion.identity);
 			}
 
