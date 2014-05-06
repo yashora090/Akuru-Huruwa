@@ -4,6 +4,7 @@ using System.Collections;
 public class Effects : MonoBehaviour {
 
 	public Transform pointerPrefab;
+	private Object pen;
 	// Use this for initialization
 	void Start () {
 
@@ -15,7 +16,7 @@ public class Effects : MonoBehaviour {
 			if(touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled) {
 				Vector3 touchPosition=Camera.current.ScreenToWorldPoint(touch.position);
 				touchPosition.z=0;
-				Instantiate(pointerPrefab,touchPosition,Quaternion.identity);
+				pen=Instantiate(pointerPrefab,touchPosition,Quaternion.identity);
 			}
 
 		}
