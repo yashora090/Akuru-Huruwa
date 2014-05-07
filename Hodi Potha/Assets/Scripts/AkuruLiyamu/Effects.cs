@@ -6,6 +6,8 @@ public class Effects : MonoBehaviour {
 	public Transform pointerPrefab;
 	private Object pen;
 	// Use this for initialization
+
+	//comment testing
 	void Start () {
 
 	}
