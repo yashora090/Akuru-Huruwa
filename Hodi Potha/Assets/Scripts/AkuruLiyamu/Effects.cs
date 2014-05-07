@@ -8,6 +8,7 @@ public class Effects : MonoBehaviour {
 	// Use this for initialization
 
 	//comment testing
+	//comment 2
 	void Start () {
 
 	}
