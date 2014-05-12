@@ -2,7 +2,11 @@
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AkuruLiyamu\Effects.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Scripts\AkuruLiyamu\Effects.cs" Line="19" Column="10" />
+=======
+      <File FileName="Assets\Scripts\AkuruLiyamu\Effects.cs" Line="17" Column="5" />
+>>>>>>> 674f85493a67507fd5eb89c1bf00814c3541af52
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
